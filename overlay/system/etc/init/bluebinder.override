@@ -1,0 +1,6 @@
+pre-start script
+	rfkill unblock all
+  	/usr/bin/droid/bluebinder_wait.sh
+  	sleep 10
+end script
+
